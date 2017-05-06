@@ -1,0 +1,4 @@
+rootProject.name = 'vaarschema-converter'
+include 'converter'
+findProject(':converter')?.name = 'vaarschema-converter'
+
